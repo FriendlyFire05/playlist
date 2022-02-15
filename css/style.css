@@ -1,3 +1,19 @@
+
+body {
+  background-color: gray;
+}
+
+
+.title {
+  color: black;
+  background-color: gray;
+}
+
+.add {
+  background-color: orange;
+  border-radius: 50px;
+}
+
 h1 {
   text-align: center;
 }
@@ -26,6 +42,7 @@ h1 {
   height: 100px;
   font-weight: bold;
   margin: 20px;
+  color: black;
 }
 
 .artists p {
@@ -50,7 +67,7 @@ h1 {
 }
 
 .form {
-  width: 75%;
+  width: 100%;
   margin: 0 auto 20px auto;
   font-size: 18px;
 }
