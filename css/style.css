@@ -4,14 +4,15 @@ body {
 }
 
 
-.title {
-  color: black;
-  background-color: gray;
-}
+
 
 .add {
   background-color: orange;
   border-radius: 50px;
+  display: felx;
+  justify-content: center;
+  margin-left: 48.5%; 
+  margin-right: 50%; 
 }
 
 h1 {
@@ -79,5 +80,5 @@ input {
 
 button {
   font-size: 14px;
-  padding: 5px 10px;
+  padding: 7px 15px;
 }

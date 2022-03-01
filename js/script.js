@@ -7,7 +7,7 @@ let songLink = ['5a','5b','5c','5d'];
 
 function displaySongInfo() {
   // Complete the Day 2 goals inside this function
-  
+  console.log(songName);
   songName.forEach(function(song)  {
   //if($(".title").val() === song){
     $(".songs").append(`<li>${song}</li>`) 
@@ -47,9 +47,22 @@ function emptySongInfo() {
 function addSongInfo() {
   let inputSong = $(".title").val();
   // Complete Day 3 goals inside this function
+  songName.push(inputSong);
+  
+  let inputImage = $(".image").val();
+  songImage.push(inputImage);
+  
+  let inputArtist = $(".artist").val();
+  songArtist.push(inputArtist);
+
+  let inputLength = $(".length").val()
+  songLength.push(inputLength);
+  
+  let inputLink = $(".link").val()
+  songLink.push(inputLink);
 }
 
-$("#add").click(function () {
+$(".add").click(function () {
   emptySongInfo();
   addSongInfo();
   displaySongInfo();
